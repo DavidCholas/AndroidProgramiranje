@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:adnroid="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="384dp"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:hint="Username"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="384dp"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Spinner
+        android:id="@+id/SpinnerChoices"
+        android:layout_width="384dp"
+        android:layout_height="58dp"
+        android:hint="SelectedChoice" />
+
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="374dp"
+        android:layout_height="71dp"
+        android:gravity="center"
+        android:text="Register" />
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+package com.example.andriodproekt;
+
+public class DriverInfo {
+    private String carDetails;
+    private String licenseCredentials;
+    private String freeTime;
+
+    public DriverInfo (String carDetails, String licenseCredentials, String freeTime) {
+        this.carDetails = carDetails;
+        this.licenseCredentials = licenseCredentials;
+        this.freeTime = freeTime;
+    }
+    public String getCarDetails() {
+}

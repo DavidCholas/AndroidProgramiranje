@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- TextView to display the driver's username -->
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Driver Username"
+        android:textSize="16sp" />
+
+    <!-- Button to interact with the driver (e.g., view details) -->
+    <Button
+        android:id="@+id/driverButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Details" />
+</LinearLayout>

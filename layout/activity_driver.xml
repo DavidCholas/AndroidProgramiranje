@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Car Info-->
+    <EditText
+        android:id="@+id/carEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Car Details (e.g., Model, Year)"
+        android:inputType="text" />
+
+    <!-- License -->
+    <EditText
+        android:id="@+id/licenseEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="License Credentials"
+        android:inputType="text" />
+
+    <!-- Free time for rides -->
+    <EditText
+        android:id="@+id/freeTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Available Free Time"
+        android:inputType="text" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Information" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewDrivers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Driver details section (initially hidden) -->
+    <LinearLayout
+        android:id="@+id/driverDetailsLayout"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/carTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Car Details" />
+
+        <TextView
+            android:id="@+id/licenseTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="License Credentials" />
+
+        <TextView
+            android:id="@+id/freeTimeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Free Time" />
+    </LinearLayout>
+</LinearLayout>
